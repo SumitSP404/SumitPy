@@ -5,7 +5,7 @@ from gtts import gTTS
 from pygame import mixer 
 import os 
 
-pytesseract.pytesseract.tessarct_cmd=r"C:\3Vikram\Software\General\Tesseract\tesseract.exe"
+pytesseract.pytesseract.tessarct_cmd=r"C:\Sumit Purandare\Software\General\Tesseract\tesseract.exe"
 mixer.init()
 def play(text):
   tts = gTTS(text)
